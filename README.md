@@ -17,7 +17,7 @@ The gofmt output if the command fail.
 ## Example usage
 
 ```yaml
-uses: Jerome1337/go-action/fmt@v1.0.0
+uses: Jerome1337/gofmt-action@v1.0.0
 with:
   gofmt-path: './src'
 ````
