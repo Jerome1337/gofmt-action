@@ -1,4 +1,4 @@
-# Gofmt action
+# Gofmt Action
 
 This action execute gofmt command and return the command output if fail.
 
@@ -6,7 +6,10 @@ This action execute gofmt command and return the command output if fail.
 
 ### `gofmt-path`
 
-Path used by gofmt command, default is `./`.
+Path where your Go files are.
+This path will be used by gofmt command to check files formatting.
+
+Default one is the repository root (`./`).
 
 ## Outputs
 
@@ -14,10 +17,18 @@ Path used by gofmt command, default is `./`.
 
 The gofmt output if the command fail.
 
-## Example usage
+For example:
+
+```bash
+All the following files are not correctly formatted
+handlers/writer.go
+services/writerServices.go
+```
+
+## Example Usage
 
 ```yaml
-uses: Jerome1337/gofmt-action@v1.0.0
+uses: Jerome1337/gofmt-action@v1.0.1
 with:
   gofmt-path: './src'
 ````
