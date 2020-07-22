@@ -1,4 +1,4 @@
-name: 'Gofmter'
+name: 'Check code formatting using gofmt'
 author: 'Jérôme Pogeant'
 description: 'Check code formatting using gofmt'
 inputs:
