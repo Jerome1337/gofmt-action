@@ -11,6 +11,13 @@ This path will be used by gofmt command to check files formatting.
 
 Default one is the repository root (`./`).
 
+`gofmt-flags`
+
+Custom flags to pass to gofmt. 
+See [gofmt docs](https://golang.org/cmd/gofmt/) for available flags.
+
+Default behaviour is to list all file paths with incorrect formatting (`-l`).
+
 ## Outputs
 
 `gofmt-output`
@@ -31,4 +38,5 @@ services/writerServices.go
 uses: Jerome1337/gofmt-action@v1.0.2
 with:
   gofmt-path: './src'
+  gofmt-flags: '-l -d'
 ````
