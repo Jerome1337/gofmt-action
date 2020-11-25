@@ -35,7 +35,7 @@ services/writerServices.go
 ## Example Usage
 
 ```yaml
-uses: Jerome1337/gofmt-action@v1.0.2
+uses: Jerome1337/gofmt-action@v1.0.4
 with:
   gofmt-path: './src'
   gofmt-flags: '-l -d'
