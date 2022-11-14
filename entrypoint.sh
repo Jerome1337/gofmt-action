@@ -11,4 +11,4 @@ if [ -n "$GOFMT_OUTPUT" ]; then
   exit 1
 fi
 
-echo "::set-output name=gofmt-output::Gofmt step succeed"
+echo "gofmt-output=Gofmt step succeed" >> $GITHUB_OUTPUT
