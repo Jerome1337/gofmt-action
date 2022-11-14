@@ -13,7 +13,7 @@ Default one is the repository root (`./`).
 
 `gofmt-flags`
 
-Custom flags to pass to gofmt. 
+Custom flags to pass to gofmt.
 See [gofmt docs](https://golang.org/cmd/gofmt/) for available flags.
 
 Default behaviour is to list all file paths with incorrect formatting (`-l`).
@@ -35,8 +35,8 @@ services/writerServices.go
 ## Example Usage
 
 ```yaml
-uses: Jerome1337/gofmt-action@v1.0.4
+uses: Jerome1337/gofmt-action@v1.0.5
 with:
   gofmt-path: './src'
   gofmt-flags: '-l -d'
-````
+```
